@@ -20,7 +20,7 @@ string countSort(string str){
 
 int main(){
     string str;
-    cin>>str;
+    cin>>str; 
     cout<<countSort(str)<<endl;
 
 }
