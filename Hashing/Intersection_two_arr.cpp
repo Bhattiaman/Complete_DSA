@@ -10,6 +10,7 @@ class Solution {
         for(int i = 0; i < m; i++){
             if(st.find(b[i]) != st.end()){
                 count++;
+                st.erase(b[i]);
             }
         }
         return count;
