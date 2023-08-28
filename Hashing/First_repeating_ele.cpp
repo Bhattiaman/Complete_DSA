@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 class Solution {
   public:
     // Function to return the position of the first repeating element.
